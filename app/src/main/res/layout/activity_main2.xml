@@ -22,7 +22,7 @@
         android:layout_height="18dp"
 
         android:fontFamily="@font/nunito"
-        android:text="@string/email"
+        android:text="Email"
         android:textColor="#1565C0"
         android:textSize="14sp"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -37,6 +37,42 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="367dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/edittext_rectangle"/>
+    
+    <TextView
+        android:layout_width="295dp"
+        android:layout_height="18dp"
+
+        android:fontFamily="@font/nunito"
+        android:text="Password"
+        android:textColor="#1565C0"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="421dp"
         android:layout_marginStart="30dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="270dp"
+        android:layout_height="37dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="441dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/edittext_rectangle"/>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/flat_color_icons_google"
+        android:background="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="490dp"
+        android:layout_marginStart="30dp"
+        android:contentDescription="@null"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
