@@ -75,4 +75,24 @@
         android:elevation="5dp"
         android:contentDescription="@null" />
 
+    <Button
+        android:id="@+id/signIn"
+        android:layout_width="126dp"
+        android:layout_height="55dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="655dp"
+        android:layout_marginStart="245dp"
+        android:text="Sign In"/>
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="126dp"
+        android:layout_height="55dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="718dp"
+        android:layout_marginStart="245dp"
+        android:text="Sign Up"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
